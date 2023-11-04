@@ -1,10 +1,10 @@
 import streamlit as st
 import openai
 
-# Set your OpenAI API key here
-openai.api_key = "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"
 
-# Define the chatbot parameters, functions, and conversation
+openai.api_key = "************************"
+
+
 functions = [
     {
         "name": "get_current_weather",
